@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <PXML xmlns="http://openpandora.org/namespaces/PXML">
+  <package id="psb">
+   <author name="kickass" website="https://github.com/dleicht/PSB"/>
+   <version major="0" minor="0" release="1" build="0" type="release"/>
+   <titles>
+    <title lang="en_US">Pandora's Safe Box</title>
+   </titles>
+   <descriptions>
+    <description lang="en_US">PSB will backup and restore your game saves and user settings in the most convenient way.</description>
+   </descriptions>
+  </package>
+  <application id="psb" appdata="psb">
+  <exec command="run.sh"/>
+    <title lang="en_US">Pandora's Safe Box</title>
+
+    <author name="kickass" website="https://github.com/dleicht/PSB"/>
+    <version major="0" minor="0" release="1" build="0"/>
+    <osversion major="1" minor="0" release="0" build="0"/>
+
+    <description lang="en_US">
+    PSB will backup and restore your game saves and user settings in the most convenient way.
+    </description>
+    <icon src="PandoraBoxTrans_200_flames.png"/>
+
+    <categories>
+      <!-- http://standards.freedesktop.org/menu-spec/latest/apa.html -->
+      <category name="System">
+       <subcategory name="">
+       </subcategory>
+      </category>
+    </categories>
+    <previewpics>
+     <pic src="preview.png"/>
+     <pic src="preview1.png"/>
+     <!-- <pic src="previews/preview3.png"/> -->
+    </previewpics>
+    <licenses>
+     <license name="MIT" url="http://opensource.org/licenses/MIT"/>
+    </licenses>
+  </application>
+</PXML>
