@@ -287,11 +287,18 @@ def checkappdata(appdatafolder, directory): #checks if the related appfolder exi
 
 def backupspecific(gameslist): # crawl games.json for path/filenames with gamesaves and ask for the ones to be archived
     directories = os.listdir("/media") # get the global directories
-    directories.remove("hdd")
-    directories.remove("ram")
+    print "directories list:"
+    print directories
+    if "hdd" in directories:
+        directories.remove("hdd")
+        print "removed hdd"
+    if "ram" in directories:
+        directories.remove("ram")
+        print "removed ram"
     for directory in directories:
-        if directory[0] == ".":
+        if directory.startswith("."):
             directories.remove(directory)
+            print "removed "+directory
     print "\nWill now crawl "+str(directories)+" for games/emulators:\n"
     programsfound = []
     prog_folder_list = []

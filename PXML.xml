@@ -2,7 +2,7 @@
  <PXML xmlns="http://openpandora.org/namespaces/PXML">
   <package id="psb">
    <author name="kickass" website="https://github.com/dleicht/PSB"/>
-   <version major="0" minor="0" release="1" build="0" type="release"/>
+   <version major="0" minor="0" release="1" build="1" type="release"/>
    <titles>
     <title lang="en_US">Pandora's Safe Box</title>
    </titles>
@@ -15,7 +15,7 @@
     <title lang="en_US">Pandora's Safe Box</title>
 
     <author name="kickass" website="https://github.com/dleicht/PSB"/>
-    <version major="0" minor="0" release="1" build="0"/>
+    <version major="0" minor="0" release="1" build="1"/>
     <osversion major="1" minor="0" release="0" build="0"/>
 
     <description lang="en_US">
